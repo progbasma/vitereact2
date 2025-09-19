@@ -1,16 +1,26 @@
-import Header from './assets/components/header/Header';
-import Footer from './assets/components/footer/Footer';
-import Mainc from './assets/components/main/Mainc';
-import Navbarc from './assets/components/navbar/Navbar';
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Mainc from './components/main/Mainc';
+import Navbarc from './components/navbar/Navbar';
+import Homepage from './pages/Homepage';
+import About from './pages/About';
+import { Route, Routes } from 'react-router';
+import Contact from './pages/Contact';
+
 
 function App() {
   
   return (
     <>
       <Navbarc/>
-      <Header/>
+        <Routes>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='/about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+        </Routes>
+      
       <Footer/>
-      <Mainc/>
+      
     </>
   )
 }

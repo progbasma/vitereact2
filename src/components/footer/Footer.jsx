@@ -1,8 +1,9 @@
 import React from 'react'
+import './Footer.css'
 
 function Footer() {
   return (
-    <div>welcome in footer component</div>
+    <footer>welcome in footer component</footer>
   )
 }
 

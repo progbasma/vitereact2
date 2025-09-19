@@ -3,6 +3,7 @@ import React from 'react'
 // import './Navbar.module.css'
 import './Navbar.scss'
 import styled from 'styled-components'
+import { NavLink } from 'react-router';
 
 const Navstyledcomponent = styled.nav`
   background-color: #333;
@@ -43,9 +44,9 @@ function Navbarc() {
 
     <Navstyledcomponent  as="nav">
       <ul>
-        <li><a href="/">home page</a></li>
-        <li><a href="/">about us</a></li>
-        <li><a href="/">contact us</a></li>
+        <li><NavLink to="/">home page</NavLink></li>
+        <li><NavLink to="/about">about us</NavLink></li>
+        <li><NavLink to="/contact">contact us</NavLink></li>
       </ul>
     </Navstyledcomponent>
   </>
