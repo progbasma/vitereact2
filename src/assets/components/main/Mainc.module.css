@@ -1,0 +1,11 @@
+.maincomponent{
+    background-color: sienna;
+    padding: 50px;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.maincomponent h1{
+    text-align: center;
+    color: white;
+}
