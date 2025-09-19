@@ -1,18 +1,18 @@
-nav{
+.navbar{
     background-color: #333;
     
     padding: 10px;
     text-align: center;
 }
-nav ul{
+.menu{
     list-style: none;
     display: flex;
    
 }
-nav ul li{
+.menuitem{
     margin: 0 10px;
 }
-nav ul li a{
+.menulink{
     color: #fff;
     text-decoration: none;
 }
