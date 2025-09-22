@@ -42,7 +42,7 @@ function Navbarc() {
   return (
   <>
 
-    <Navstyledcomponent  as="nav">
+    <Navstyledcomponent>
       <ul>
         <li><NavLink to="/">home page</NavLink></li>
         <li><NavLink to="/about">about us</NavLink></li>
